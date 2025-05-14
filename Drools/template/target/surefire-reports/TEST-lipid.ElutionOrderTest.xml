@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="lipid.ElutionOrderTest" time="3.286" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Usuario\Desktop\SOPORTE_DECISION\PRACTICES\practiceTemplate\template\target\test-classes;C:\Users\Usuario\Desktop\SOPORTE_DECISION\PRACTICES\practiceTemplate\template\target\classes;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-engine\10.0.0\drools-ruleunits-engine-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-dsl\10.0.0\drools-ruleunits-dsl-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-canonical-model\10.0.0\drools-canonical-model-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-model-compiler\10.0.0\drools-model-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-util-maven-support\10.0.0\kie-util-maven-support-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-core\10.0.0\drools-core-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-util-xml\10.0.0\kie-util-xml-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-base\10.0.0\drools-base-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-wiring-static\10.0.0\drools-wiring-static-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-io\10.0.0\drools-io-10.0.0.jar;C:\Users\Usuario\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-compiler\10.0.0\drools-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-drl-parser\10.0.0\drools-drl-parser-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-drl-extensions\10.0.0\drools-drl-extensions-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-drl-ast\10.0.0\drools-drl-ast-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-kiesession\10.0.0\drools-kiesession-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ecj\10.0.0\drools-ecj-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jdt\ecj\3.33.0\ecj-3.33.0.jar;C:\Users\Usuario\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-impl\10.0.0\drools-ruleunits-impl-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-api\10.0.0\drools-ruleunits-api-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-model-codegen\10.0.0\drools-model-codegen-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-codegen-common\10.0.0\drools-codegen-common-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-model-prototype\10.0.0\drools-model-prototype-10.0.0.jar;C:\Users\Usuario\.m2\repository\com\github\javaparser\javaparser-core\3.25.8\javaparser-core-3.25.8.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-mvel-parser\10.0.0\drools-mvel-parser-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-mvel-compiler\10.0.0\drools-mvel-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-classic\1.5.17\logback-classic-1.5.17.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-core\1.5.17\logback-core-1.5.17.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-wiring-dynamic\10.0.0\drools-wiring-dynamic-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-wiring-api\10.0.0\drools-wiring-api-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-memory-compiler\10.0.0\kie-memory-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-util\10.0.0\drools-util-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-api\10.0.0\kie-api-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-internal\10.0.0\kie-internal-10.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Users\Usuario\.jdks\openjdk-24.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Usuario\AppData\Local\Temp\surefire17702122594512005782\surefirebooter-20250512111451174_3.jar C:\Users\Usuario\AppData\Local\Temp\surefire17702122594512005782 2025-05-12T11-14-50_949-jvmRun1 surefire-20250512111451174_1tmp surefire_0-20250512111451174_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Usuario\Desktop\SOPORTE_DECISION\PRACTICES\practiceTemplate\template\target\test-classes;C:\Users\Usuario\Desktop\SOPORTE_DECISION\PRACTICES\practiceTemplate\template\target\classes;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-engine\10.0.0\drools-ruleunits-engine-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-dsl\10.0.0\drools-ruleunits-dsl-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-canonical-model\10.0.0\drools-canonical-model-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-model-compiler\10.0.0\drools-model-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-util-maven-support\10.0.0\kie-util-maven-support-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-core\10.0.0\drools-core-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-util-xml\10.0.0\kie-util-xml-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-base\10.0.0\drools-base-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-wiring-static\10.0.0\drools-wiring-static-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-io\10.0.0\drools-io-10.0.0.jar;C:\Users\Usuario\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-compiler\10.0.0\drools-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-drl-parser\10.0.0\drools-drl-parser-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-drl-extensions\10.0.0\drools-drl-extensions-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-drl-ast\10.0.0\drools-drl-ast-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-kiesession\10.0.0\drools-kiesession-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ecj\10.0.0\drools-ecj-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jdt\ecj\3.33.0\ecj-3.33.0.jar;C:\Users\Usuario\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-impl\10.0.0\drools-ruleunits-impl-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-ruleunits-api\10.0.0\drools-ruleunits-api-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-model-codegen\10.0.0\drools-model-codegen-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-codegen-common\10.0.0\drools-codegen-common-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-model-prototype\10.0.0\drools-model-prototype-10.0.0.jar;C:\Users\Usuario\.m2\repository\com\github\javaparser\javaparser-core\3.25.8\javaparser-core-3.25.8.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-mvel-parser\10.0.0\drools-mvel-parser-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-mvel-compiler\10.0.0\drools-mvel-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-classic\1.5.17\logback-classic-1.5.17.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-core\1.5.17\logback-core-1.5.17.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-wiring-dynamic\10.0.0\drools-wiring-dynamic-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-wiring-api\10.0.0\drools-wiring-api-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-memory-compiler\10.0.0\kie-memory-compiler-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\drools\drools-util\10.0.0\drools-util-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-api\10.0.0\kie-api-10.0.0.jar;C:\Users\Usuario\.m2\repository\org\kie\kie-internal\10.0.0\kie-internal-10.0.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Usuario"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\Usuario\.jdks\openjdk-24.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Usuario\Desktop\SOPORTE_DECISION\PRACTICES\practiceTemplate\template"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Usuario\AppData\Local\Temp\surefire17702122594512005782\surefirebooter-20250512111451174_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="Usuario"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Usuario\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Usuario\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.5"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="C:\Users\Usuario\Desktop\SOPORTE_DECISION\PRACTICES\practiceTemplate\template"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Usuario\.jdks\openjdk-24.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-17.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Oculus\Support\oculus-runtime;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Usuario\Desktop\bin;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files\Git\cmd;C:\Users\Usuario\Desktop\AutoFirma\AutoFirma;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Users\Usuario\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Usuario\AppData\Local\Programs\Python\Python310\;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\Usuario\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.12\Python 3.12 (64-bit)\Scripts;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Usuario\AppData\Local\GitHubDesktop\bin;C:\Users\Usuario\AppData\Local\gitkraken\bin;C:\MinGW\bin\;C:\Users\Usuario\.dotnet\tools;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\Usuario\AppData\Local\Muse Hub\lib;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testNegativeScoreForClassRTOrderViolation" classname="lipid.ElutionOrderTest" time="3.267">
+    <system-out><![CDATA[2025-05-12 11:14:52,110 [main] INFO  Creating RuleUnit
+2025-05-12 11:14:52,236 [main] WARN  File 'C:/Users/Usuario/Desktop/SOPORTE_DECISION/PRACTICES/practiceTemplate/template/target/classes/lipid/lipids.drl' is in folder 'C:/Users/Usuario/Desktop/SOPORTE_DECISION/PRACTICES/practiceTemplate/template/target/classes/lipid' but declares package 'lipid'. It is advised to have a correspondance between package and folder names.
+2025-05-12 11:14:55,066 [main] INFO  Insert data
+2025-05-12 11:14:55,074 [main] INFO  Run query. Rules are also fired
+]]></system-out>
+  </testcase>
+  <testcase name="testNegativeScoreForIncorrectDoubleBondRTOrder" classname="lipid.ElutionOrderTest" time="0.004">
+    <system-out><![CDATA[2025-05-12 11:14:55,109 [main] INFO  Creating RuleUnit
+2025-05-12 11:14:55,110 [main] INFO  Insert data
+2025-05-12 11:14:55,110 [main] INFO  Run query. Rules are also fired
+]]></system-out>
+  </testcase>
+  <testcase name="testPositiveScoreForIncreasingCarbonCountWithRT" classname="lipid.ElutionOrderTest" time="0.003">
+    <system-out><![CDATA[2025-05-12 11:14:55,113 [main] INFO  Creating RuleUnit
+2025-05-12 11:14:55,113 [main] INFO  Insert data
+2025-05-12 11:14:55,113 [main] INFO  Run query. Rules are also fired
+]]></system-out>
+  </testcase>
+  <testcase name="testNegativeScoreForIncorrectCarbonCountRTOrder" classname="lipid.ElutionOrderTest" time="0.003">
+    <system-out><![CDATA[2025-05-12 11:14:55,116 [main] INFO  Creating RuleUnit
+2025-05-12 11:14:55,116 [main] INFO  Insert data
+2025-05-12 11:14:55,117 [main] INFO  Run query. Rules are also fired
+]]></system-out>
+  </testcase>
+  <testcase name="testPositiveScoreForMoreDoubleBondsWithLowerRT" classname="lipid.ElutionOrderTest" time="0.004">
+    <system-out><![CDATA[2025-05-12 11:14:55,119 [main] INFO  Creating RuleUnit
+2025-05-12 11:14:55,119 [main] INFO  Insert data
+2025-05-12 11:14:55,119 [main] INFO  Run query. Rules are also fired
+]]></system-out>
+  </testcase>
+  <testcase name="testPositiveScoreForClassBasedRTOrder" classname="lipid.ElutionOrderTest" time="0.001">
+    <system-out><![CDATA[2025-05-12 11:14:55,123 [main] INFO  Creating RuleUnit
+2025-05-12 11:14:55,123 [main] INFO  Insert data
+2025-05-12 11:14:55,123 [main] INFO  Run query. Rules are also fired
+]]></system-out>
+  </testcase>
+</testsuite>
